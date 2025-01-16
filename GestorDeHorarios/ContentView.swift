@@ -42,7 +42,7 @@ struct ContentView: View {
                             Image(systemName: "sun.max.fill")
                                 .foregroundColor(.yellow)
                                 .font(.title2)
-                            Text("Bienvenido")
+                            Text("Hola, Bienvenido")
                                 .font(.title)
                                 .fontWeight(.bold)
                         }

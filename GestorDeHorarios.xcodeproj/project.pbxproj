@@ -13,9 +13,6 @@
 		B6AD1A9D2D3730650078C1E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AD1A9C2D3730650078C1E6 /* Preview Assets.xcassets */; };
 		B6AD1A9F2D3730650078C1E6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1A9E2D3730650078C1E6 /* Persistence.swift */; };
 		B6AD1AA22D3730650078C1E6 /* GestorDeHorarios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1AA02D3730650078C1E6 /* GestorDeHorarios.xcdatamodeld */; };
-		B6AD1AAC2D3730650078C1E6 /* GestorDeHorariosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1AAB2D3730650078C1E6 /* GestorDeHorariosTests.swift */; };
-		B6AD1AB62D3730650078C1E6 /* GestorDeHorariosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1AB52D3730650078C1E6 /* GestorDeHorariosUITests.swift */; };
-		B6AD1AB82D3730650078C1E6 /* GestorDeHorariosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1AB72D3730650078C1E6 /* GestorDeHorariosUITestsLaunchTests.swift */; };
 		B6AD1ACC2D374E290078C1E6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1ACB2D374E290078C1E6 /* CoreDataManager.swift */; };
 		B6AD1ACE2D374F520078C1E6 /* AddHorarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1ACD2D374F520078C1E6 /* AddHorarioView.swift */; };
 		B6AD1AD02D374F760078C1E6 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD1ACF2D374F760078C1E6 /* CalendarView.swift */; };
@@ -50,10 +47,7 @@
 		B6AD1A9E2D3730650078C1E6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B6AD1AA12D3730650078C1E6 /* GestorDeHorarios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GestorDeHorarios.xcdatamodel; sourceTree = "<group>"; };
 		B6AD1AA72D3730650078C1E6 /* GestorDeHorariosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestorDeHorariosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6AD1AAB2D3730650078C1E6 /* GestorDeHorariosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestorDeHorariosTests.swift; sourceTree = "<group>"; };
 		B6AD1AB12D3730650078C1E6 /* GestorDeHorariosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestorDeHorariosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6AD1AB52D3730650078C1E6 /* GestorDeHorariosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestorDeHorariosUITests.swift; sourceTree = "<group>"; };
-		B6AD1AB72D3730650078C1E6 /* GestorDeHorariosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestorDeHorariosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B6AD1ACB2D374E290078C1E6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		B6AD1ACD2D374F520078C1E6 /* AddHorarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHorarioView.swift; sourceTree = "<group>"; };
 		B6AD1ACF2D374F760078C1E6 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -91,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				B6AD1A942D3730630078C1E6 /* GestorDeHorarios */,
-				B6AD1AAA2D3730650078C1E6 /* GestorDeHorariosTests */,
-				B6AD1AB42D3730650078C1E6 /* GestorDeHorariosUITests */,
 				B6AD1A932D3730630078C1E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,23 +124,6 @@
 				B6AD1A9C2D3730650078C1E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B6AD1AAA2D3730650078C1E6 /* GestorDeHorariosTests */ = {
-			isa = PBXGroup;
-			children = (
-				B6AD1AAB2D3730650078C1E6 /* GestorDeHorariosTests.swift */,
-			);
-			path = GestorDeHorariosTests;
-			sourceTree = "<group>";
-		};
-		B6AD1AB42D3730650078C1E6 /* GestorDeHorariosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B6AD1AB52D3730650078C1E6 /* GestorDeHorariosUITests.swift */,
-				B6AD1AB72D3730650078C1E6 /* GestorDeHorariosUITestsLaunchTests.swift */,
-			);
-			path = GestorDeHorariosUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6AD1AAC2D3730650078C1E6 /* GestorDeHorariosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6AD1AB82D3730650078C1E6 /* GestorDeHorariosUITestsLaunchTests.swift in Sources */,
-				B6AD1AB62D3730650078C1E6 /* GestorDeHorariosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
